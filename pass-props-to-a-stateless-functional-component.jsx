@@ -29,3 +29,4 @@ class Calendar extends React.Component {
 };
 
 //Note that we can create react components using normal javascript function without any class or by writing a class and the class name becomes the react component name and whatever we return from the class or the function is the JSX element,in the above example we can see that CurrentDate and Calendar both are react components but Calendar is declared using class and CurrentDate as a normal javascript function.
+//Note that the CurretDate is called "stateless functional Component" and Calendar is called an "ES6 class component" but both of them are methods to create react components,the class components are declared so that some special fetures can be utilised.
